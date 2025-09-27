@@ -1,0 +1,8 @@
+-- Write your PostgreSQL query statement below
+-- Write your PostgreSQL query statement below
+SELECT
+    m.id
+FROM
+    Weather AS m
+INNER JOIN
+    Weather AS n ON m.recordDate - n.recordDate = 1 AND m.temperature > n.temperature;
