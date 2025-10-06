@@ -1,0 +1,10 @@
+SELECT
+    m.machine_id,
+    ROUND(CAST(AVG(m.timestamp - n.timestamp) AS DECIMAL), 3) AS processing_time
+FROM Activity as m
+JOIN Activity as n
+    ON m.machine_id = n.machine_id
+WHERE
+    m.activity_type = 'end' AND n.activity_type = 'start' 
+GROUP BY
+    m.machine_id;
