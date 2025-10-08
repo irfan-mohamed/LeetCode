@@ -1,0 +1,25 @@
+-- Write your PostgreSQL query statement below
+WITH attended_exm AS (
+    SELECT
+        exm.student_id,
+        exm.subject_name,
+        COUNT(exm.subject_name) AS attended_exams
+    FROM
+        Examinations AS exm
+    GROUP BY
+        exm.student_id, exm.subject_name
+)
+SELECT
+    std.student_id,
+    std.student_name,
+    sub.subject_name,
+    COALESCE(attended_exams,0) AS attended_exams
+FROM
+    Students AS std
+CROSS JOIN
+    Subjects AS sub
+LEFT JOIN
+    attended_exm ON std.student_id = attended_exm.student_id AND sub.subject_name = attended_exm.subject_name
+ORDER BY
+    std.student_id,std.student_name,sub.subject_name
+;
