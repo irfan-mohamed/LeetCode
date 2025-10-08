@@ -1,0 +1,19 @@
+-- Write your PostgreSQL query statement below
+WITH counts_of_managers AS(
+    SELECT
+        n.managerId,
+        COUNT(n.managerId) AS mcount
+    FROM
+        Employee AS n
+    GROUP BY
+        n.managerId
+)
+
+SELECT
+    m.name
+FROM
+    Employee AS m
+JOIN
+    counts_of_managers ON m.id = counts_of_managers.managerId
+WHERE
+    counts_of_managers.mcount >= 5;
