@@ -1,0 +1,16 @@
+WITH confirmation_rate_table AS(
+    SELECT
+        user_id,
+        ROUND(SUM(CASE WHEN action ='confirmed' THEN 1 ELSE 0 END)*1.0 / COUNT(action),2) AS confirmation_rate
+    FROM
+        Confirmations
+    GROUP BY
+        user_id
+)
+SELECT
+    s.user_id,
+    COALESCE(confirmation_rate,0) AS confirmation_rate
+FROM
+    Signups AS s
+LEFT JOIN
+    confirmation_rate_table AS crt ON s.user_id = crt.user_id;
