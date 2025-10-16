@@ -1,0 +1,16 @@
+-- Write your PostgreSQL query statement below
+WITH count_class AS(
+    SELECT
+        class,
+        COUNT(class) AS class_count
+    FROM
+        Courses
+    GROUP BY
+        class
+)
+SELECT
+    class
+FROM
+    count_class
+WHERE
+    class_count >= 5;
