@@ -1,0 +1,22 @@
+-- Write your PostgreSQL query statement below
+WITH first_log AS(
+        SELECT
+            player_id,
+            MIN(event_date) AS first_date
+        FROM Activity 
+        GROUP BY player_id
+),
+frequent_login AS(
+    SELECT
+        COUNT(fl.player_id) AS frequent_player
+    FROM
+        Activity as a
+    LEFT JOIN
+        first_log AS fl ON a.player_id = fl.player_id AND a.event_date = fl.first_date+ INTERVAL '1 Day'
+)
+SELECT
+    ROUND(frequent_player*1.0/(SELECT COUNT(DISTINCT player_id) AS count_player FROM Activity),2) AS fraction
+FROM
+    frequent_login
+;
+
