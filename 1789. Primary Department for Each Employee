@@ -1,0 +1,13 @@
+-- Write your PostgreSQL query statement below
+with employee_ids as (select 
+    employee_id,
+    count(department_id) as dep_count
+from Employee 
+group by employee_id)
+select
+e.employee_id,
+e.department_id
+from
+Employee as e
+join employee_ids as ei on e.employee_id = ei.employee_id
+where ei.dep_count = 1 OR e.primary_flag = 'Y'
