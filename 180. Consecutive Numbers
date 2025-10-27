@@ -1,0 +1,19 @@
+WITH num_list_cte AS(
+    SELECT
+        id,
+        num,
+        LEAD(num,1,0) OVER(ORDER BY id)AS next_num,
+        LAG(num,1,0) OVER(ORDER BY id) AS prev_num
+    FROM
+        Logs
+    ORDER BY
+        id
+)
+SELECT
+    num AS ConsecutiveNums
+FROM
+    num_list_cte
+WHERE
+    num = next_num AND num = prev_num
+GROUP BY
+    num;
