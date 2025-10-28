@@ -1,0 +1,20 @@
+-- Write your PostgreSQL query statement below
+WITH run_total_cte AS(
+    SELECT
+        person_name,
+        weight,
+        turn,
+        SUM(weight) OVER(ORDER BY turn ASC ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW) AS run_total
+    FROM
+        Queue
+)
+SELECT
+    person_name
+FROM
+    run_total_cte
+WHERE
+    run_total <= 1000
+ORDER BY
+    run_total DESC
+LIMIT
+    1;
