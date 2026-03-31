@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/irfan-mohamed/LeetCode/tree/master/0049-group-anagrams) |
 | [0217-contains-duplicate](https://github.com/irfan-mohamed/LeetCode/tree/master/0217-contains-duplicate) |
 | [0347-top-k-frequent-elements](https://github.com/irfan-mohamed/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0605-can-place-flowers](https://github.com/irfan-mohamed/LeetCode/tree/master/0605-can-place-flowers) |
 ## Hash Table
 |  |
 | ------- |
@@ -43,4 +44,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/irfan-mohamed/LeetCode/tree/master/0347-top-k-frequent-elements) |
+## Greedy
+|  |
+| ------- |
+| [0605-can-place-flowers](https://github.com/irfan-mohamed/LeetCode/tree/master/0605-can-place-flowers) |
 <!---LeetCode Topics End-->
