@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/irfan-mohamed/LeetCode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/irfan-mohamed/LeetCode/tree/master/0049-group-anagrams) |
 ## Divide and Conquer
 |  |
@@ -89,4 +90,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0191-number-of-1-bits](https://github.com/irfan-mohamed/LeetCode/tree/master/0191-number-of-1-bits) |
 | [0371-sum-of-two-integers](https://github.com/irfan-mohamed/LeetCode/tree/master/0371-sum-of-two-integers) |
+## Stack
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/irfan-mohamed/LeetCode/tree/master/0020-valid-parentheses) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/irfan-mohamed/LeetCode/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
