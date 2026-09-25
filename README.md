@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/irfan-mohamed/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/irfan-mohamed/LeetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/irfan-mohamed/LeetCode/tree/master/0347-top-k-frequent-elements) |
+| [0518-coin-change-ii](https://github.com/irfan-mohamed/LeetCode/tree/master/0518-coin-change-ii) |
 | [0605-can-place-flowers](https://github.com/irfan-mohamed/LeetCode/tree/master/0605-can-place-flowers) |
 ## Hash Table
 |  |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/irfan-mohamed/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/irfan-mohamed/LeetCode/tree/master/0152-maximum-product-subarray) |
 | [0338-counting-bits](https://github.com/irfan-mohamed/LeetCode/tree/master/0338-counting-bits) |
+| [0518-coin-change-ii](https://github.com/irfan-mohamed/LeetCode/tree/master/0518-coin-change-ii) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -114,4 +116,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/irfan-mohamed/LeetCode/tree/master/0070-climbing-stairs) |
+## Knapsack Problem
+|  |
+| ------- |
+| [0518-coin-change-ii](https://github.com/irfan-mohamed/LeetCode/tree/master/0518-coin-change-ii) |
+## Complete Knapsack
+|  |
+| ------- |
+| [0518-coin-change-ii](https://github.com/irfan-mohamed/LeetCode/tree/master/0518-coin-change-ii) |
 <!---LeetCode Topics End-->
