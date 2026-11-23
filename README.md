@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0020-valid-parentheses](https://github.com/irfan-mohamed/LeetCode/tree/master/0020-valid-parentheses) |
 | [0049-group-anagrams](https://github.com/irfan-mohamed/LeetCode/tree/master/0049-group-anagrams) |
+| [0412-fizz-buzz](https://github.com/irfan-mohamed/LeetCode/tree/master/0412-fizz-buzz) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/irfan-mohamed/LeetCode/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/irfan-mohamed/LeetCode/tree/master/0268-missing-number) |
 | [0371-sum-of-two-integers](https://github.com/irfan-mohamed/LeetCode/tree/master/0371-sum-of-two-integers) |
+| [0412-fizz-buzz](https://github.com/irfan-mohamed/LeetCode/tree/master/0412-fizz-buzz) |
 ## Binary Search
 |  |
 | ------- |
@@ -124,4 +126,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0518-coin-change-ii](https://github.com/irfan-mohamed/LeetCode/tree/master/0518-coin-change-ii) |
+## Simulation
+|  |
+| ------- |
+| [0412-fizz-buzz](https://github.com/irfan-mohamed/LeetCode/tree/master/0412-fizz-buzz) |
 <!---LeetCode Topics End-->
